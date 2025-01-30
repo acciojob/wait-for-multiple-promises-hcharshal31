@@ -1,6 +1,7 @@
 //your JS code here. If required.
 let table = document.querySelector(".table tbody");
 let defaultRow = document.createElement("tr");
+defaultRow.setAtribute("id", "loading");
 defaultRow.innerHTML = "<td colspan=2>Loading...</td>";
 
 if(table){
